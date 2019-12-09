@@ -1,0 +1,52 @@
+body{
+    color: aqua;
+    background-color: #232323;
+    margin: 0;
+}
+
+.square{
+    /* grid: 30% 30% 30%; */
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    background-color: rgba(102, 185, 116, 0.712);
+    border-radius: 15%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+h1{
+    margin: 0;
+    padding: 40px 0;
+    background-color: burlywood;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+#displayStrip{
+    color: white;
+    background-color: rgb(252, 243, 243);
+    height: 30px;
+}
+
+#reset {
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    background-color: gray;
+    /* backdrop-filter: none; */
+}
+
+.selected{
+    background-color: blueviolet ;
+    color: burlywood;
+}
+
+/* 
+#heading{
+    background-color: red;
+} */
